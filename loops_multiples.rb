@@ -18,4 +18,11 @@
 # 20
 
 p "Enter a number:"
-
+number = gets.chomp
+i = 1
+int = number.to_i
+while i < 11
+  num = i * int
+  puts num
+  i += 1
+end
